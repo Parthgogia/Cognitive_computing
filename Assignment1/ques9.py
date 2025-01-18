@@ -5,15 +5,15 @@ for i in range(5):
     print(nums[i])
 
 #####################################
-# randomNumber = random.randint(1,101)
-# isPrime=True
-# for i in range (2,int(randomNumber**0.5)+1):
-#     if randomNumber%i==0:
-#         isPrime = False
-# if (isPrime):
-#     print(f"{randomNumber} is prime")
-# else:
-#     print(f"{randomNumber} is not prime")
+randomNumber = random.randint(1,101)
+isPrime=True
+for i in range (2,int(randomNumber**0.5)+1):
+    if randomNumber%i==0:
+        isPrime = False
+if (isPrime):
+    print(f"{randomNumber} is prime")
+else:
+    print(f"{randomNumber} is not prime")
 
 ###################################
 DiceOutcome = random.randrange(1,7)
